@@ -15,7 +15,7 @@ planning_scene::PlanningScene planning_scene(kinematic_model);
 自我碰撞检测
 构造 CollisionRequest对象和 CollisionResult对象
 
-```
+```c
 collision_detection::CollisionRequest collision_request;
 collision_detection::CollisionResult collision_result;
 planning_scene.checkSelfCollision(collision_request, collision_result);
